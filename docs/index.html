@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>FontWear</title>
+    <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ここにStep2-2で取得した「スクリプトタグ」を貼ります -->
+  </head>
+
+  <body>
+    <header class="header">
+      <p class="header-logo">FontWear</p>
+      <nav class="header-nav">
+        <ul class="header-nav__menu">
+          <li><a href="#">ブランドについて</a></li>
+          <li><a href="#">商品一覧</a></li>
+          <li><a href="#">お知らせ</a></li>
+          <li><a href="#">マイページ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="wrapper">
+      <div class="item">
+        <div class="item-image">
+          <img src="img/item.jpg" alt="筑紫AMゴシックのTシャツ">
+        </div>
+        <div class="item-info">
+          <h1 class="item-info__title">書体プリント半袖T</h1>
+          <p class="item-info__price">¥3,400 + tax</p>
+          <p class="item-info__description">
+            文字の骨格は古い楷書体を思わせるような、手書きのニュアンスを含んだものとなっています。活字の正方形に文字の形を収めようとする力が働く前の、文字自体が本来持っている凹凸・バランスを踏襲しており、アンティークな雰囲気を醸し出しています。角の尖りや、まるでコンパスで書いたような丸み。アンティークな骨格をモダンなエレメントでまとめているところが筑紫AMゴシックの魅力です。
+          </p>
+
+          <table class="order-table">
+            <caption class="table-discription">色とサイズを選択</caption>
+            <thead>
+              <tr>
+                <th>色</th>
+                <th>サイズ</th>
+                <th>数量を選択</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ホワイト</td>
+                <td>S</td>
+                <td>
+                  <select name="quantity_s">
+                    <option value="1">0</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>ホワイト</td>
+                <td>M</td>
+                <td>
+                  <select name="quantity_m">
+                    <option value="1">0</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td>ホワイト</td>
+                <td>L</td>
+                <td>
+                  <select name="quantity_l">
+                    <option value="1">0</option>
+                    <option value="2">1</option>
+                    <option value="3">2</option>
+                  </select>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
+          <a class="cart-btn" href="#">カートに入れる</a>
+
+          <table class="size-table">
+            <caption class="table-discription">サイズについて</caption>
+            <thead>
+              <tr>
+                <th class="size-table__size">サイズ</th>
+                <th class="size-table__chest">身丈</th>
+                <th class="size-table__weist">身幅</th>
+                <th class="size-table__height">肩幅</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>S</th>
+                <td>65cm</td>
+                <td>49cm</td>
+                <td>42cm</td>
+              </tr>
+              <tr>
+                <th>M</th>
+                <td>69cm</td>
+                <td>52cm</td>
+                <td>46cm</td>
+              </tr>
+              <tr class="no-border">
+                <th>L</th>
+                <td>73cm</td>
+                <td>55cm</td>
+                <td>50cm</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </main>
+
+    <footer class="wrapper">
+      <p class="footer-copyright">&copy; FontWear</p>
+    </footer>
+  </body>
+</html>
